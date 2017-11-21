@@ -108,7 +108,6 @@
                         </div>
                     </div>
                 @endfor
-
             </div>
             <div class="section section-blue" id="section3">
                 <div class="intro">
