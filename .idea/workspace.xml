@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2abffd2d-abcb-47a0-9074-f7f60910d96f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/noahtelussa.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/laurenskwartier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/n2my.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pickmeupanddrive.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/brouwerij.png" afterPath="$PROJECT_DIR$/public/images/brouwerij.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/dehalvanhilversum.png" afterPath="$PROJECT_DIR$/public/images/dehalvanhilversum.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/deschooneley.png" afterPath="$PROJECT_DIR$/public/images/deschooneley.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/hetverborgengeheim.png" afterPath="$PROJECT_DIR$/public/images/hetverborgengeheim.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/persc.gif" afterPath="$PROJECT_DIR$/public/images/persc.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/rokade.png" afterPath="$PROJECT_DIR$/public/images/rokade.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/sluistechniek.png" afterPath="$PROJECT_DIR$/public/images/sluistechniek.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/snelwonen.png" afterPath="$PROJECT_DIR$/public/images/snelwonen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/themuseofrotterdam.png" afterPath="$PROJECT_DIR$/public/images/themuseofrotterdam.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/veilingpassage.png" afterPath="$PROJECT_DIR$/public/images/veilingpassage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/woneninnewwest.png" afterPath="$PROJECT_DIR$/public/images/woneninnewwest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pickmeupanddrive.png" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +47,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.25838265">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.7475345">
+              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -269,6 +248,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="noahtelussa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="noahtelussa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -433,7 +430,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33516484" sideWeight="0.5648464" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33516484" sideWeight="0.5648464" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25838265">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.7475345">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
           <folding />
         </state>
       </provider>
