@@ -9,13 +9,12 @@
 
 </head>
 <body>
-<section id="particles-js" class="hidden-xs"></section>
+<section id="particles-js" class="hidden-xs hidden-sm"></section>
 
-<div class="container">
     <div class="row">
         <div class="phone">
             <div class="hidden-md hidden-lg col-xs-12">
-                <img src="{{asset('images/me/TuinNoahTelussa.jpg')}}" alt="Noah Telussa">
+                <img src="{{asset('images/me/TuinNoahTelussa.jpg')}}" class="img-responsive" alt="Noah Telussa">
             </div>
         </div>
     </div>
@@ -55,12 +54,14 @@
             </div>
         </div>
     </div>
+<div class="container">
+
 
     <div class="row">
-        <div class="hidden-xs col-md-2  hover-me">
+        <div class="hidden-xs hidden-sm col-md-2  hover-me">
             <img src="{{asset('images/hover-me.png')}}" class="img-responive" alt="Hover me">
         </div>
-        <div class="hidden-xs col-md-4 col-md-offset-3 wrapper">
+        <div class="hidden-xs hidden-sm col-md-4 col-md-offset-3 wrapper">
 
             <div class="card">
                 <div class="front">
