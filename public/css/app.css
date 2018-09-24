@@ -7037,6 +7037,12 @@ section {
 .phone .text {
   padding-left: 10px; }
 
+.phone .phone-wrapper {
+  padding: 0 !important; }
+
+.phone .phone-text {
+  padding-left: 30px; }
+
 .hover-me {
   top: 0;
   position: absolute; }

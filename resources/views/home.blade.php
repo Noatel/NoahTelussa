@@ -13,7 +13,7 @@
 
     <div class="row">
         <div class="phone">
-            <div class="hidden-md hidden-lg col-xs-12">
+            <div class="hidden-md hidden-lg col-xs-12  phone-wrapper">
                 <img src="{{asset('images/me/TuinNoahTelussa.jpg')}}" class="img-responsive" alt="Noah Telussa">
             </div>
         </div>
@@ -24,7 +24,7 @@
             <div class="hidden-md hidden-lg col-xs-12">
                 <div class="details">
                     <div class="row text">
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 phone-text">
 
                             <h2>Noah Telussa <br>
                                 <span>Web and Application ontwikkelaar</span></h2>
