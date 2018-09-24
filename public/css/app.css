@@ -6920,132 +6920,102 @@ button.close {
   height: 30px;
   width: 100%; }
 
-body {
-  margin: 0;
-  padding: 0; }
-  @media (min-width: 0) and (max-width: 991px) {
-    body {
-      background-color: #6094D2 !important; } }
+.full-height {
+  height: 100vh; }
+
+.flex-center {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.position-ref {
+  position: relative; }
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px; }
+
+.content {
+  text-align: center; }
+
+.title {
+  font-size: 84px; }
+
+img:hover {
+  opacity: 0.8; }
+
+hr {
+  border-color: #6094D2; }
+
+.project-link:hover {
+  text-decoration: none; }
+  .project-link:hover h2 {
+    color: #336db3 !important; }
+
+.links > a {
+  color: white;
+  padding: 0 25px;
+  font-size: 12px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.m-b-md {
+  margin-bottom: 30px; }
+
+.section-blue h2, .section-blue p {
+  font-size: 16pt;
+  font-weight: 500;
+  color: #6094D2 !important; }
+
+@keyframes jump {
+  0% {
+    top: 0; }
+  50% {
+    top: 50px; }
+  100% {
+    top: 0; } }
+
+#arrow-down {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  animation: jump 5s infinite; }
+  #arrow-down i {
+    content: '\f0a8';
+    font-size: 10px; }
+  #arrow-down i:hover {
+    color: white; }
+
+.social-media i {
+  padding: 15px !important; }
+
+.social-media .linked-in {
+  color: black; }
+  .social-media .linked-in:hover {
+    color: #262626 !important; }
+
+.social-media .facebook {
+  color: #3b5998; }
+  .social-media .facebook:hover {
+    color: #5f7ec1 !important; }
+
+.social-media .bitbucket {
+  color: #205081; }
+  .social-media .bitbucket:hover {
+    color: #2f76be !important; }
+
+.social-media .stackoverflow {
+  color: #222426; }
+  .social-media .stackoverflow:hover {
+    color: #464a4e !important; }
 
 h1 {
-  color: black !important;
-  font-size: 26px; }
-
-.wrapper {
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.card {
-  width: 100%;
-  height: 400px;
-  transform-style: preserve-3d;
-  perspective: 600px;
-  transition: 0.5s;
-  border-radius: 20px; }
-
-.card .front {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
-  transition: 0.5s; }
-  .card .front img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-.card:hover .front {
-  transform: rotateX(-180deg); }
-
-.card .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #3b5998;
-  backface-visibility: hidden;
-  transform: rotateX(180deg);
-  transition: 0.5s; }
-
-.card:hover .back {
-  transform: rotateX(0deg); }
-
-.card .back .details {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box; }
-
-h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
-  color: #fff; }
-  h2 span {
-    font-size: 16px; }
-
-.social-icons {
-  padding: 10px 0; }
-  .social-icons a {
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    text-align: center;
-    background: #262626;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: 0.5s; }
-    .social-icons a:hover {
-      background-color: #6094D2; }
-    .social-icons a .fa {
-      line-height: 36px; }
-
-.inner {
-  display: inline-block;
-  font-size: 13px;
-  font-color: #878787; }
-
-.rotate {
-  -ff-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  color: black;
-  padding: 20px;
-  width: 16px;
-  /* transform: rotate() does not rotate the bounding box. */ }
-
-section {
-  height: 100vh;
-  width: 100vw; }
-
-.phone img {
-  width: 100%;
-  padding-bottom: 20px; }
-
-.phone .text {
-  padding-left: 10px; }
-
-.phone .phone-wrapper {
-  padding: 0 !important; }
-
-.phone .phone-text {
-  padding-left: 30px; }
-
-.hover-me {
-  top: 0;
-  position: absolute; }
+  color: white; }
 
 html, body {
   height: 100vh;

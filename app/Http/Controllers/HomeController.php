@@ -9,11 +9,11 @@ use Carbon\Carbon;
 
 class HomeController extends Controller {
     public function index () {
-//
-//        $projects = Project::all();
-//        $projects = $projects->shuffle();
-//
-//        $projects->all();
+
+        $projects = Project::all();
+        $projects = $projects->shuffle();
+
+        $projects->all();
 
         $birth= Carbon::createFromDate(1997, 1, 17, 'Europe/Amsterdam');
         $now = Carbon::now();
@@ -21,6 +21,6 @@ class HomeController extends Controller {
         $age = $birth->diffInYears($now);
 
 
-return view('home', compact('age'));
+return view('index', compact('projects','age'));
 }
 }
