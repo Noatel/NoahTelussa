@@ -6973,7 +6973,6 @@ hr {
   color: #6094D2 !important; }
   @media (min-width: 0) and (max-width: 991px) {
     .section-blue h2, .section-blue p {
-      font-weight: 200 !important;
       font-size: 12pt !important; } }
 
 @keyframes jump {
