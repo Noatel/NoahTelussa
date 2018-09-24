@@ -116,7 +116,7 @@
                                 <h2>Social media:</h2>
                                     <div class="social-media">
                                         <a href="https://www.linkedin.com/in/noah-telussa-a7a938b1" target="_blank"><i class="fa-5x fa fa-linkedin-square linked-in" aria-hidden="true"></i></a>
-                                        <a href="https://bitbucket.org/Noatel/" target="_blank"><i class="fa-5x fa fa-bitbucket bitbucket" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/Noatel/" target="_blank"><i class="fa-5x fa fa-github github" aria-hidden="true"></i></a>
                                         <a href="https://stackoverflow.com/users/4345254/noah-telussa" target="_blank"><i class="fa-5x fa fa-stack-overflow stackoverflow" aria-hidden="true"></i></a>
                                         <a href="https://www.facebook.com/noah.telussa" target="_blank"><i class="fa-5x fa fa-facebook-square facebook" aria-hidden="true"></i></a>
 
