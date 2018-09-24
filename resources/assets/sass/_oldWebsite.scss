@@ -1,0 +1,128 @@
+
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+img {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+hr {
+  border-color: #6094D2;
+}
+
+.project-link {
+  &:hover {
+    text-decoration: none;
+    h2 {
+      color: darken(#6094D2, 15%) !important;
+    }
+  }
+}
+
+.links > a {
+  color: white;
+  padding: 0 25px;
+  font-size: 12px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.section-blue {
+  h2, p {
+    font-size:16pt;
+    font-weight:500;
+    color: white !important;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+#arrow-down {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  animation: jump 5s infinite;
+  i {
+    content: '\f0a8';
+    font-size: 10px;
+  }
+  i:hover {
+    color: white;
+  }
+}
+
+.social-media {
+
+  i {
+    padding: 15px !important;
+  }
+  .linked-in {
+    color: black;
+    &:hover {
+      color: lighten(black, 15%) !important;
+    }
+  }
+
+  .facebook {
+    color: #3b5998;
+    &:hover {
+      color: lighten(#3b5998, 15%) !important;
+    }
+  }
+  .bitbucket {
+    color: #205081;
+    &:hover {
+      color: lighten(#205081, 15%) !important;
+    }
+  }
+  .stackoverflow {
+    color: #222426;
+    &:hover {
+      color: lighten(#222426, 15%) !important;
+    }
+  }
+}

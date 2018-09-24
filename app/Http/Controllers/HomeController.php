@@ -21,6 +21,6 @@ class HomeController extends Controller {
         $age = $birth->diffInYears($now);
 
 
-return view('index', compact('projects','age'));
+return view('home', compact('projects','age'));
 }
 }

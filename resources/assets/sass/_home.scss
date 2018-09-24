@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  @media (max-width: 576px) {
+    background-color:#6094D2 ;
+  }
+}
+h1{
+  color:black !important;
+  font-size:26px;
+}
+.wrapper{
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+
+}
+
+
+.card {
+  //transform: translate(-50%, -50%);
+  width: 100%;
+  height: 400px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+
+  border-radius: 20px;
+
+
+}
+
+.card .front {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+
+
+  img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+}
+
+.card:hover .front {
+  transform: rotateX(-180deg);
+}
+
+.card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3b5998;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+
+}
+
+.card:hover .back {
+  transform: rotateX(0deg);
+}
+
+.card .back .details {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+
+
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #fff;
+  span {
+    font-size:16px;
+  }
+}
+.social-icons{
+  padding: 10px 0;
+  a{
+    display:inline-block;
+    width:36px;
+    height:36px;
+    text-align: center;
+    background:#262626;
+    color:#fff;
+    text-decoration:none;
+    border-radius: 50%;
+    transition: 0.5s;
+
+    &:hover{
+      background-color: #6094D2;
+
+    }
+
+    .fa{
+      line-height:36px;
+
+    }
+  }
+}
+
+.inner {
+  display: inline-block;
+  font-size: 13px;
+  font-color: #878787;
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -ff-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color:black;
+  padding:20px;
+  width: 16px;  /* transform: rotate() does not rotate the bounding box. */
+}
+
+section{
+  height: 100vh;
+  width:100vw;
+}
+.phone{
+  img{
+    width:100%;
+    padding-bottom:20px;
+  }
+  .text {
+    padding-left:10px;
+  }
+}
+.hover-me{
+  top:0;
+  position: absolute;
+}
