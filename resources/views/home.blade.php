@@ -44,8 +44,7 @@
                                             class=" fa fa-github github" aria-hidden="true"></i></a>
                                 <a href="https://stackoverflow.com/users/4345254/noah-telussa" target="_blank"><i
                                             class="fa fa-stack-overflow stackoverflow" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/noah.telussa" target="_blank"><i
-                                            class=" fa fa-facebook-square facebook" aria-hidden="true"></i></a>
+
 
                             </div>
                         </div>

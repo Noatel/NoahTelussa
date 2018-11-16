@@ -6997,10 +6997,10 @@ hr {
 .social-media i {
   padding: 15px !important; }
 
-.social-media .linked-in {
-  color: black; }
-  .social-media .linked-in:hover {
-    color: #262626 !important; }
+.social-media .linked-in  {
+  color: #3b5998; }
+.social-media .facebook:hover {
+  color: #5f7ec1 !important; }
 
 .social-media .facebook {
   color: #3b5998; }
@@ -7013,9 +7013,9 @@ hr {
     color: #2f76be !important; }
 
 .social-media .stackoverflow {
-  color: #222426; }
-  .social-media .stackoverflow:hover {
-    color: #464a4e !important; }
+  color: #3b5998; }
+.social-media .facebook:hover {
+  color: #5f7ec1 !important; }
 
 h1 {
   color: white; }

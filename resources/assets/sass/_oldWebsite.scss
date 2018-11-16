@@ -105,9 +105,9 @@ hr {
     padding: 15px !important;
   }
   .linked-in {
-    color: black;
+    color: #3b5998;
     &:hover {
-      color: lighten(black, 15%) !important;
+      color: lighten(#3b5998, 15%) !important;
     }
   }
 
@@ -124,9 +124,9 @@ hr {
     }
   }
   .stackoverflow {
-    color: #222426;
+    color: #3b5998;
     &:hover {
-      color: lighten(#222426, 15%) !important;
+      color: lighten(#3b5998, 15%) !important;
     }
   }
 }
