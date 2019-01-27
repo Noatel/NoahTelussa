@@ -14,10 +14,14 @@ class HomeController extends Controller {
         $projects = $projects->shuffle();
 
         $projects->all();
+        $birth= Carbon::createFromDate(1997, 1, 17, 'Europe/Amsterdam');
+        $now = Carbon::now();
+
+        $age = $birth->diffInYears($now);
 
 
 
-        return view('index', compact('projects','age'));
+        return view('indexOld', compact('projects','age'));
     }
 
     public function getPage ($page) {
