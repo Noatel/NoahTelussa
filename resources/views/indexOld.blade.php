@@ -37,11 +37,7 @@
 
         <div class="content">
             <div class="section " id="section0">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="{{asset('images/me/macboek.jpg')}}" alt="">
-                    </div>
-                    <div class="col-md-6">
+
                 <h1 class="title">
                     Noah Telussa
                 </h1>
@@ -59,7 +55,6 @@
                         <i class="fa fa-chevron-down"></i>
                     </div>
                 </a>
-                    </div>
             </div>
             </div>
             <div class="section section-blue" id="section1">
