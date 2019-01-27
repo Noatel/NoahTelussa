@@ -12,8 +12,12 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/old', 'HomeController@old');
+Route::get('/table', 'HomeController@table');
 
 
+
+Route::get('/get/{id}', 'HomeController@getPage');
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

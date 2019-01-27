@@ -1,0 +1,36 @@
+.macboek{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-image: url("../images/me/macboek.jpg");
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.no-padding{
+    padding-left:0;
+}
+
+.text-wrapper,.text-wrapper h1,.text-wrapper a{
+    color:black!important;
+}
+.text-wrapper{
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+@media (max-width: 992px) {
+    .text-wrapper{
+        left:50%;
+
+    }
+}
+
+.links{
+    margin-left:50px;
+}
