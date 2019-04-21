@@ -25,7 +25,7 @@
             <section class="animated  bounceInUp delay-0s">
                 <div class="space-20"></div>
                 <a href="#introduction" class="btn">
-                    More info
+                   Introduction
                 </a>
                 <a href="#projects" class="btn">
                     Projects
