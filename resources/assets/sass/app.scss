@@ -6,8 +6,7 @@
 // Bootstrap
 @import "bootstrap";
 @import "_spaces";
-//@import "_home";
-@import "_oldWebsite";
+
 
 html, body {
   height: 100vh;
@@ -15,7 +14,12 @@ html, body {
 }
 
 html, body, h1, a, h2 {
-  color: white;
-  font-family: 'Anton', sans-serif;
+  //font-family: 'Anton', sans-serif;
   //font-family: 'Raleway', sans-serif;
 }
+
+
+//@import "_home";
+//@import "_oldWebsite";
+
+@import "_index";

@@ -8,10 +8,10 @@
 
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .no-padding{
     padding-left:0;
+    padding-right: 0;
 }
 
 .text-wrapper,.text-wrapper h1,.text-wrapper a{
@@ -29,8 +29,23 @@ body{
         left:50%;
 
     }
+    .intro-text{
+        position: relative;
+        top:100px;
+        right: 20px;
+    }
 }
 
 .links{
     margin-left:50px;
+}
+.loadContent {
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+}
+.project-image {
+    max-height:190px;
+}
+.intro-text{
+    margin-left:100px;
 }

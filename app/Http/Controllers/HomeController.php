@@ -21,7 +21,7 @@ class HomeController extends Controller {
 
 
 
-        return view('indexOld', compact('projects','age'));
+        return view('old.index', compact('projects','age'));
     }
 
     public function getPage ($page) {
@@ -34,7 +34,7 @@ class HomeController extends Controller {
 
                 $age = $birth->diffInYears($now);
 
-                $view = view("over",compact('age'))->render();
+                $view = view("old.over",compact('age'))->render();
 
                 return response()->json(['html'=>$view]);
                 break;
@@ -44,9 +44,14 @@ class HomeController extends Controller {
 
                 $projects->all();
 
-                $view = view("projects",compact('projects'))->render();
-
+                $view = view("old.projects",compact('projects'))->render();
                 return response()->json(['html'=>$view]);
+
+                break;
+            case "socialMedia":
+
+
+
 
                 break;
         }
@@ -65,12 +70,12 @@ class HomeController extends Controller {
         $age = $birth->diffInYears($now);
 
 
-        return view('indexOld', compact('projects','age'));
+        return view('old.indexOld', compact('projects','age'));
     }
     public function table () {
 
 
 
-        return view('table');
+        return view('old.table');
     }
 }

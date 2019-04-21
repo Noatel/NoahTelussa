@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'IndexController@index');
+
+
+
 Route::get('/old', 'HomeController@old');
 Route::get('/table', 'HomeController@table');
 
