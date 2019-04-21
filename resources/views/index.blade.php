@@ -43,7 +43,7 @@
         <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-10 col-xs-offset-1">
             <h2>Introduction</h2>
             <p>
-                Mijn naam is Noah Telussa, 22 jarige developer die in Januari 2017 afgestudeerd is als
+                Mijn naam is Noah Telussa, {{$age}} jarige developer die in Januari 2017 afgestudeerd is als
                 Mediaontwikkelaar.
                 Deze opleiding heb ik afgerond in drie en een half jaar en heb hierdoor bij verschillende
                 bedrijven stage gelopen, &#233;&#233;n
