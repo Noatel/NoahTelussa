@@ -8,6 +8,23 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('images/n.png')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('images/n.png')}}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{asset('images/n.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('images/n.png')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('images/n.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('images/n.png')}}">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{asset('images/n.png')}}">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 <body>
