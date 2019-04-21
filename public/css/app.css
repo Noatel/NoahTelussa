@@ -7020,9 +7020,18 @@ p {
 
 @media (max-width: 1200px) {
   .projects img {
-    max-height: 170px; } }
+    max-height: 140px; }
+  .box-text p {
+    font-size: 90% !important;
+    line-height: 50%; }
+  .box-text h2 {
+    font-size: 150% !important;
+    line-height: 50%; } }
 
 @media (max-width: 500px) {
+  .box-text p {
+    font-size: 90% !important;
+    line-height: 50%; }
   .projects img {
     max-height: 90px; } }
 

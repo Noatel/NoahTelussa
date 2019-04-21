@@ -71,6 +71,7 @@ p{
 }
 .projects img{
   max-height:175px;
+
 }
 .box {
   float:left;
@@ -112,16 +113,34 @@ p{
     line-height:160%;
     bottom:200px;
     position:absolute;
-  }}
-
-
+    }
+  }
 }
 @media(max-width:1200px) {
 .projects img{
-  max-height:170px;
+  max-height:140px;
 }
+  .box-text{
+    p{
+      font-size:90% !important;
+      line-height:50%;
+    }
+    h2{
+      font-size:150% !important;
+      line-height:50%;
+    }
+  }
 }
 @media(max-width:500px) {
+  .box-text{
+    p{
+    font-size:90% !important;
+    line-height:50%;
+    }
+    h2{
+
+    }
+  }
 .projects img{
   max-height:90px;
 }
