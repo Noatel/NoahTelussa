@@ -58,7 +58,7 @@
     <div class="container">
     <div class="row">
         <div class="space-40"></div>
-        <div class="col-md-6 col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1">
+        <div class="col-md-5 col-sm-12 col-xs-10 col-sm-offset-0  col-xs-offset-1">
             <h2>Introduction</h2>
             <p>
                 Mijn naam is Noah Telussa, {{$age}} jarige developer die in Januari 2017 afgestudeerd is als
@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="space-50  hidden-md hidden-lg"></div>
-        <div class="col-md-5 col-sm-12 col-sm-offset-0 col-md-offset-1">
+        <div class="col-md-6 col-sm-12 col-sm-offset-0 col-md-offset-1">
             <div class="me "></div>
         </div>
         <div class="space-40"></div>
