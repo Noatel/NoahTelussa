@@ -125,7 +125,19 @@
         </div>
     </div>
 </section>
-
+<footer>
+<div class="bottom section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="copyright">
+                    <p><a href="#" class="transition">Noah Telussa</a> Noahtelussa@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
 <script>
 $(".project-box").on('mouseenter mouseleave', function () {
     $(this).find('.box-hover').fadeToggle(100);
