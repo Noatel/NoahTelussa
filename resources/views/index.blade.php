@@ -133,7 +133,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="copyright">
-                    <p><a href="#" class="transition">Noah Telussa</a> Noahtelussa@gmail.com</p>
+                    <p><a href="#" class="transition">Noah Telussa</a> <a class="mail" href="mailto:noahtelussa@gmail.com">Noahtelussa@gmail.com</a></p>
                 </div>
             </div>
         </div>
