@@ -45,7 +45,7 @@
                    Introduction
                 </a>
                 <a href="#projects" class="btn">
-                    Projects
+                    Portfolio
                 </a>
             </section>
 
@@ -101,7 +101,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <h2>Projects</h2>
+                <h2>Portfolio</h2>
             </div>
         </div>
         <div class="row ">
