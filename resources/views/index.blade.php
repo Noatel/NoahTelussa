@@ -44,7 +44,7 @@
                 <a href="#introduction" class="btn">
                    Introduction
                 </a>
-                <a href="#projects" class="btn">
+                <a href="#portfolio" class="btn">
                     Portfolio
                 </a>
             </section>
@@ -97,7 +97,7 @@
     </div>
     </div>
 </section>
-<section class="projects" id="projects">
+<section class="projects" id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
