@@ -157,7 +157,6 @@ p{
 .content .btn{
   margin-left:20px;
 }
-
 footer{
   a:hover{
     text-decoration:none;
@@ -193,4 +192,31 @@ footer{
 }
 .mail{
   color:white !important;
+}
+.skill-box{
+  background-color:white;
+  width:100%;
+  height:auto;
+  border-radius:25px;
+  margin-top:25px;
+
+  img{
+    height:70px;
+    display:block;
+    margin:0 auto;
+    padding:25px 25px 0 25px;
+    margin-bottom:25px;
+  }
+  span{
+    text-align: center;
+    display:block;
+    padding-bottom:25px;
+  }
+  i{
+    color:black;
+    margin:0 auto;
+    width: max-content;
+    display: block;
+    padding:25px 25px 0 25px;
+  }
 }

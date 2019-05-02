@@ -7080,4 +7080,29 @@ footer .bottom .copyright p, footer .bottom .copyright a:hover {
 .mail {
   color: white !important; }
 
+.skill-box {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 25px; }
+  .skill-box img {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 25px 0 25px;
+    margin-bottom: 25px; }
+  .skill-box span {
+    text-align: center;
+    display: block;
+    padding-bottom: 25px; }
+  .skill-box i {
+    color: black;
+    margin: 0 auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: block;
+    padding: 25px 25px 0 25px; }
+
 /*# sourceMappingURL=app.css.map */
