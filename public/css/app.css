@@ -7105,4 +7105,14 @@ footer .bottom .copyright p, footer .bottom .copyright a:hover {
     display: block;
     padding: 25px 25px 0 25px; }
 
+.all-projects .project-image img {
+  width: 100%; }
+
+.all-projects .box-text {
+  top: 0; }
+  .all-projects .box-text h2 {
+    font-size: 20px; }
+  .all-projects .box-text p {
+    font-size: 80%; }
+
 /*# sourceMappingURL=app.css.map */

@@ -23,4 +23,14 @@ class IndexController extends Controller
 
         return view('index',compact("projects","age"));
     }
+    public function projects () {
+
+        $projects = Project::all();
+        $projects = $projects->shuffle();
+
+        $projects->all();
+
+
+        return view('projects',compact("projects"));
+    }
 }
