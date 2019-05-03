@@ -190,7 +190,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2  col-sm-6 col-xs-6 box project-box">
+                    <div class="col-md-2  col-sm-3 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                       <i style="color:#a6b2ba" class="fa-5x fas fa-database"></i>
