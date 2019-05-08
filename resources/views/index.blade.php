@@ -30,7 +30,7 @@
     <meta property="og:title" content="Noah Telussa" />
     <meta property="og:type" content="Portfolio" />
     <meta property="og:url" content="http://noahtelussa.nl" />
-    <meta property="og:image" content="{{asset('/images/me/macboek2.jpg')}}" />
+    <meta property="og:image" content="{{asset('/images/me/macboek3.jpg')}}" />
 
 </head>
 <body>
