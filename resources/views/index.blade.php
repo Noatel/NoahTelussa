@@ -27,6 +27,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{asset('images/n.png')}}">
     <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Noah Telussa" />
+    <meta property="og:type" content="Portfolio" />
+    <meta property="og:url" content="http://noahtelussa.nl" />
+    <meta property="og:image" content="{{asset('/images/me/macboek2.jpg')}}" />
 
 </head>
 <body>

@@ -39,6 +39,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 all-projects">
+                <div class="row ">
             @for($i = 0; $i < count($projects); $i++)
                 <div class="col-md-6 col-sm-6 col-xs-6 box project-box">
                     <a href="{{$projects[$i]->url}}" class="project-image" target="_blank">
@@ -58,6 +59,7 @@
                 </div>
 
             @endfor
+                </div>
             </div>
         </div>
 

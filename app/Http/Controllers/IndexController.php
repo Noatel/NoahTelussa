@@ -26,7 +26,6 @@ class IndexController extends Controller
     public function projects () {
 
         $projects = Project::all();
-        $projects = $projects->shuffle();
 
         $projects->all();
 

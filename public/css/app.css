@@ -7115,4 +7115,8 @@ footer .bottom .copyright p, footer .bottom .copyright a:hover {
   .all-projects .box-text p {
     font-size: 80%; }
 
+.all-projects .project-box {
+  max-height: 131px;
+  margin-bottom: 25px; }
+
 /*# sourceMappingURL=app.css.map */
