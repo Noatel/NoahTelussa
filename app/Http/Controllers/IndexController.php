@@ -7,6 +7,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Maatwebsite\Excel\Excel;
 
 class IndexController extends Controller
 {
@@ -32,4 +33,13 @@ class IndexController extends Controller
 
         return view('projects',compact("projects"));
     }
+
+
+    public function nameChange(){
+
+      
+    }
+
+
+
 }

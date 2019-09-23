@@ -104,7 +104,7 @@
             <div class="col-md-12 col-sm-12 col-xs-10 col-sm-offset-0  col-xs-offset-1">
                 <h3>Skills</h3>
                 <div class="row">
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <i style="color:#e04a20" class="fa-5x fab fa-html5 "></i>
@@ -112,7 +112,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <i style="color:#1970b6" class="fa-5x fab fa-css3-alt "></i>
@@ -120,7 +120,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <i style="color:#e4c630" class="fa-5x fab fa-js "></i>
@@ -128,7 +128,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <img src="{{asset("images/jquery.png")}}" alt="">
@@ -136,7 +136,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <i style="color:#7378af" class="fa-5x fab fa-php "></i>
@@ -144,7 +144,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <i style="color:#f0493e" class="fa-5x fab fa-laravel "></i>
@@ -152,8 +152,9 @@
                                 </span>
                         </div>
                     </div>
-
-                    <div class="col-md-2  col-sm-3 col-xs-6 box project-box">
+                </div>
+                <div class="row">
+                    <div class="col-md-2  col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                        <i style="color:#c96595" class="fa-5x fab fa-sass"></i>
@@ -161,7 +162,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                        <i style="color:#517f9d" class="fa-5x fab fa-java"></i>
@@ -169,7 +170,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <img src="{{asset("images/Csharp_Logo.png")}}" alt="">
@@ -177,7 +178,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                         <img src="{{asset("images/net_framwork_400.jpg")}}" alt="">
@@ -185,7 +186,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2 col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                      <i
@@ -194,7 +195,7 @@
                                 </span>
                         </div>
                     </div>
-                    <div class="col-md-2  col-sm-3 col-xs-6 box project-box">
+                    <div class="col-md-2  col-sm-4 col-xs-6 box project-box">
                         <div class="skill-box">
                             <span>
                       <i style="color:#a6b2ba" class="fa-5x fas fa-database"></i>

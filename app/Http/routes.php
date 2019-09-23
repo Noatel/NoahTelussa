@@ -16,6 +16,9 @@ Route::get('/projects', 'IndexController@projects');
 
 
 
+Route::get('/namen', 'IndexController@nameChange');
+
+
 Route::get('/old', 'HomeController@old');
 Route::get('/table', 'HomeController@table');
 
