@@ -218,7 +218,7 @@
         </div>
         <div class="row ">
             @for($i = 0; $i < count($projects); $i++)
-                <div class="col-md-4 col-sm-6 col-xs-6 box project-box">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 box project-box">
                     <a href="{{$projects[$i]->url}}" class="project-image" target="_blank">
                         <div class="box-hover"></div>
                         <img src="{{asset($projects[$i]->image)}}" class="img-responsive"
@@ -232,9 +232,7 @@
                             {!! $projects[$i]->description !!}
                         </p>
                     </div>
-                    <div class="space-20"></div>
                 </div>
-
             @endfor
         </div>
         <div class="row">
