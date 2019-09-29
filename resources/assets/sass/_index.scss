@@ -89,12 +89,14 @@ p {
     position: relative;
     display: block;
   }
+
   .box-text {
     display: none;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+
     a, p {
       text-align: center;
       color: white !important;
@@ -109,7 +111,8 @@ p {
   }
   .box-text {
     font-size: 59%;
-    h2{
+
+    h2 {
       font-size: 18pt;
 
     }
@@ -225,4 +228,12 @@ footer {
     }
   }
 
+}
+
+
+@media(max-width: 768px) {
+
+  .projects .project-image img {
+    max-height: 100%;
+  }
 }
