@@ -27,11 +27,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{asset('images/n.png')}}">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Noah Telussa" />
-    <meta property="og:type" content="Portfolio" />
-    <meta property="og:url" content="http://noahtelussa.nl" />
-    <meta property="og:image" content="{{asset('/images/me/macboek3.jpg')}}" />
-
+    <meta property="og:title" content="Noah Telussa"/>
+    <meta property="og:type" content="Portfolio"/>
+    <meta property="og:url" content="http://noahtelussa.nl"/>
+    <meta property="og:image" content="{{asset('/images/me/macboek3.jpg')}}"/>
 </head>
 <body>
 <section class="intro">
@@ -216,30 +215,38 @@
                 <h2>Portfolio</h2>
             </div>
         </div>
-        <div class="row ">
-            @for($i = 0; $i < count($projects); $i++)
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 box project-box">
-                    <a href="{{$projects[$i]->url}}" class="project-image" target="_blank">
-                        <div class="box-hover"></div>
-                        <img src="{{asset($projects[$i]->image)}}" class="img-responsive"
-                             alt="{{$projects[$i]->url}}">
-                    </a>
-                    <div class="box-text">
-                        <a href="{{$projects[$i]->url}}" class="project-link" target="_blank">
-                            <h2>{{$projects[$i]->name}}</h2>
+        @for($i = 0; $i < count($projects); $i++)
+            @if($i % 3 == 2)
+                <div class="row ">
+                    @endif
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-sm-push-0 col-xs-push-2 col-xs-8 box project-box">
+                        <a href="{{$projects[$i]->url}}" class="project-image" target="_blank">
+                            <div class="box-hover"></div>
+                            <img src="{{asset($projects[$i]->image)}}" class="img-responsive"
+                                 alt="{{$projects[$i]->url}}">
                         </a>
-                        <p>
-                            {!! $projects[$i]->description !!}
-                        </p>
+                        <div class="box-text">
+                            <a href="{{$projects[$i]->url}}" class="project-link" target="_blank">
+                                <h2>{{$projects[$i]->name}}</h2>
+                            </a>
+                            <p>
+                                {!! $projects[$i]->description !!}
+                            </p>
+                        </div>
                     </div>
+                    @if($i % 3 == 2)
+                        <div class="space-10"></div>
+
                 </div>
-            @endfor
+
+            @endif
+        @endfor
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {{--                <h2 class="text-center"><a href="{{url("/projects")}}">More projects</a></h2>--}}
         </div>
-        <div class="row">
-            <div class="col-md-12">
-{{--                <h2 class="text-center"><a href="{{url("/projects")}}">More projects</a></h2>--}}
-            </div>
-        </div>
+    </div>
     </div>
 </section>
 <footer>
@@ -259,16 +266,22 @@
 </footer>
 
 <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
     $(".project-box").on('mouseenter mouseleave', function () {
         $(this).find('.box-hover').fadeToggle(100);
         $(this).find(".box-text").fadeToggle(100);
 
     });
-
-    $(".skill-box").hover(function(){
+        $(".skill-box").hover(function () {
         $(this).addClass('animated shake');
     });
-    $(".skill-box").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
+    $(".skill-box").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
         $(this).removeClass('animated shake');
     });
 </script>

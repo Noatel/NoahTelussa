@@ -6931,7 +6931,9 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 .intro {
   height: 100%;
@@ -6984,56 +6986,33 @@ p {
 .projects img {
   max-height: 175px; }
 
-.box {
+.projects .box {
   float: left;
   position: relative;
   display: block; }
 
-.box-text {
+.projects .box-text {
   display: none;
   width: 100%;
   position: absolute;
-  top: 30px;
+  top: 0;
   left: 0; }
-  .box-text a, .box-text p {
+  .projects .box-text a, .projects .box-text p {
     text-align: center;
     color: white !important; }
-
-@media (max-width: 768px) {
-  .content h1 {
-    font-size: 300%; }
-  .btn {
-    font-size: 110%;
-    padding: 7px 15px; }
-  a, p {
-    font-size: 100%;
-    line-height: 160%; }
-  .box-text {
-    padding: 0 20px 0 20px;
-    margin: 0 auto; }
-    .box-text h2 {
-      font-size: 10%;
-      line-height: 160%; } }
 
 @media (max-width: 1200px) {
   .projects img {
     max-height: 140px; }
-  .box-text p {
-    font-size: 90% !important;
-    line-height: 50%; }
-  .box-text h2 {
-    font-size: 150% !important;
-    line-height: 50%; } }
-
-@media (max-width: 500px) {
-  .box-text p {
-    font-size: 90% !important;
-    line-height: 50%; } }
+  .box-text {
+    font-size: 59%; }
+    .box-text h2 {
+      font-size: 18pt; } }
 
 .box-hover {
   background-color: black;
   position: absolute;
-  width: 100%;
+  width: 92%;
   height: 100%;
   display: none;
   opacity: 0.7; }
@@ -7109,9 +7088,5 @@ footer .bottom .copyright p, footer .bottom .copyright a:hover {
     font-size: 20px; }
   .all-projects .box-text p {
     font-size: 80%; }
-
-.all-projects .project-box {
-  max-height: 131px;
-  margin-bottom: 25px; }
 
 /*# sourceMappingURL=app.css.map */
