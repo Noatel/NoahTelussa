@@ -6969,7 +6969,7 @@ html, body {
   color: #156377;
   border: 2px solid #156377; }
 
-p {
+p, li {
   font-family: sans-serif;
   font-size: 120%;
   text-align: justify;

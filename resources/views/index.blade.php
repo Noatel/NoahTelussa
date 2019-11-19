@@ -92,21 +92,32 @@
 
                 <h3>Testing</h3>
                 <p>
-                    Ook ben ik begonnen in september 2019 aan de minor software engineering, kwaliteit en testen
-                    op Avans hogeschool. Hier kregen we te maken met verschillende test technieken zoals:
+                    In september 2019 ben ik begonnen aan de minor software engineering, kwaliteit en testen
+                    op Avans hogeschool. Hier kregen we te maken met verschillende testontwerptechniek zoals:
                 </p>
-                <ul>
-                    <li>Beslistabellen</li>
-                    <li>Datacombinatietest</li>
-                    <li>Exploratory Testing</li>
-                    <li>Procescyclustest</li>
-                    <li>Test driven development</li>
-                    <li>Behaviour driven development</li>
-                    <li>Continuous integration & continuous delivery</li>
-                </ul>
+                <div class="col-md-6 ">
+                    <ul>
+                        <li>Beslistabellen</li>
+                        <li>Datacombinatietest</li>
+                        <li>Exploratory Testing</li>
+                        <li>Procescyclustest</li>
+                        <li>Test driven development</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6 ">
+                    <ul>
+                        <li>Behaviour driven development</li>
+                        <li>Continuous integration & continuous delivery</li>
+                        <li>Ketentesten</li>
+                        <li>Regressietesten</li>
+                    </ul>
+                </div>
+                <div class="space-10"></div>
                 <p>
                     Samen met de verschillende test technieken hebben we ook
-                    automatische testen gedaan,we hebben gewerkt met verschillende frameworks Selenium, Robot
+                    automatische testen gedaan. Dit deden we door middel van de volgende programma's / frameworks
+                    Selenium, Robot
                     frameworks, Ranorex, Jenkins, Openshift en Specflow.
                 </p>
                 <div class="social-media row">

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2abffd2d-abcb-47a0-9074-f7f60910d96f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Robot-framework-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Selenium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jenkins.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <ignored path="portfolio.iws" />
@@ -28,11 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="774">
+              <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/sass/_index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -91,8 +97,8 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/_index.scss" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/_index.scss" />
       </list>
     </option>
   </component>
@@ -214,6 +220,19 @@
               <item name="noahtelussa" type="b2602c69:ProjectViewProjectNode" />
               <item name="noahtelussa" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noahtelussa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noahtelussa" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="noahtelussa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="noahtelussa" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -303,12 +322,12 @@
       <workItem from="1571736864160" duration="335000" />
       <workItem from="1571841440660" duration="596000" />
       <workItem from="1573848160731" duration="85000" />
-      <workItem from="1574169188861" duration="2103000" />
+      <workItem from="1574169188861" duration="2790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72822000" />
+    <option name="totallyTimeSpent" value="73509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="740" y="23" width="871" height="960" extended-state="0" />
@@ -549,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/_oldWebsite.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -613,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="236" column="19" lean-forward="true" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -658,10 +663,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        <state relative-caret-position="774">
+          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
