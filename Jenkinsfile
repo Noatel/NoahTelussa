@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'php:7.3.4'
-            args '-u root:sudo'
-        }
+    agent any
     }
     stages {
         stage("Checkout Code") {
