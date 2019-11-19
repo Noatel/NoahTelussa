@@ -65,7 +65,7 @@
                     Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
                     Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie en een half jaar en heb hierdoor bij
                     verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn
-                    opleiding ben ik van Januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf
+                    opleiding ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf
                     Persc, hier heb ik aan verschillende websites gewerkt.
 
                 </p>
@@ -229,6 +229,31 @@
                             <span>
                       <i style="color:#a6b2ba" class="fa-5x fas fa-database"></i>
                                  Sql
+                                </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2  col-sm-4 col-xs-6 box project-box">
+                        <div class="skill-box">
+                            <span>
+                     <img src="{{asset("images/Selenium.png")}}" alt="">
+                                 Selenium
+                                </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2  col-sm-4 col-xs-6 box project-box">
+                        <div class="skill-box">
+                            <span>
+                     <img src="{{asset("images/Robot-framework-logo.png")}}" alt="">
+                                 Robot framework
+                                </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2  col-sm-4 col-xs-6 box project-box">
+                        <div class="skill-box">
+                            <span>
+                     <img src="{{asset("images/jenkins.png")}}" alt="">
+                                 Jenkins
                                 </span>
                         </div>
                     </div>
