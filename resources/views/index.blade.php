@@ -62,40 +62,70 @@
             <div class="col-md-5 col-sm-12 col-xs-10 col-sm-offset-0  col-xs-offset-1">
                 <h2>Introduction</h2>
                 <p>
-                    Mijn naam is Noah Telussa, {{$age}} jarige developer die in Januari 2017 afgestudeerd is als
-                    Mediaontwikkelaar.
-                    Deze opleiding heb ik afgerond in drie en een half jaar en heb hierdoor bij verschillende
-                    bedrijven stage gelopen, &#233;&#233;n
-                    van die bedrijven was het bedrijf Persc. Na mijn opleiding ben ik van Januari 2017 tot September
-                    2017 full-time aan de slag gegaan bij
-                    het bedijf Persc, hier heb ik aan verschillende websites gewerkt.
+                    Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
+                    Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie en een half jaar en heb hierdoor bij
+                    verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn
+                    opleiding ben ik van Januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf
+                    Persc, hier heb ik aan verschillende websites gewerkt.
+
                 </p>
                 <p>
-                    Van September 2017 tot heden ben ik begonnen aan de opleiding HBO-ICT in Den Haag, mijn doel van
-                    deze opleiding is
-                    mijn programmeer skills (vooral back-end) uit te breiden zodat ik niet alleen websites kan maken
-                    maar ook programma's en apps.
+                    Tijdens mijn drie-en-en-half jaar durende opleiding applicatie- en mediaontwikkeling heb ik bij
+                    verschillende bedrijven stage gelopen. Één hiervan was PRSC. Na mijn stage heb ik nog een klein jaar
+                    praktijkervaring opgedaan bij PRSC, waarbij ik verschillende werkzaamheden verricht, welke variëren
+                    van front-end development tot aan het realiseren van API koppelingen.
+                </p>
+                <p>
+                    Van september 2017 tot heden ben ik begonnen aan de opleiding HBO-ICT in Den Haag. Mijn doel van
+                    deze opleiding is het uitbreiden van mijn technische kennis. Hierbij liggen mijn interesses in het
+                    ontwerpen en ontwikkelen van complexe ICT systemen.
+                </p>
+
+            </div>
+
+            <div class="space-50  hidden-md hidden-lg"></div>
+            <div class="col-md-6 col-sm-12 col-sm-offset-0 col-md-offset-1">
+                <div class="me "></div>
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+
+                <h3>Testing</h3>
+                <p>
+                    Ook ben ik begonnen in september 2019 aan de minor software engineering, kwaliteit en testen
+                    op Avans hogeschool. Hier kregen we te maken met verschillende test technieken zoals:
+                </p>
+                <ul>
+                    <li>Beslistabellen</li>
+                    <li>Datacombinatietest</li>
+                    <li>Exploratory Testing</li>
+                    <li>Procescyclustest</li>
+                    <li>Test driven development</li>
+                    <li>Behaviour driven development</li>
+                    <li>Continuous integration & continuous delivery</li>
+                </ul>
+                <p>
+                    Samen met de verschillende test technieken hebben we ook
+                    automatische testen gedaan,we hebben gewerkt met verschillende frameworks Selenium, Robot
+                    frameworks, Ranorex, Jenkins, Openshift en Specflow.
                 </p>
                 <div class="social-media row">
                     <div class="space-40"></div>
-                    <div class="col-md-2 col-md-offset-3 col-sm-offset-2 col-sm-2 col-xs-offset-0 col-xs-3"><a
+                    <div class="col-md-3 col-md-offset-3 col-sm-offset-2 col-sm-2 col-xs-offset-0 col-xs-3"><a
                                 href="https://www.linkedin.com/in/noah-telussa-a7a938b1"
                                 target="_blank"><i
                                     class="fa-5x fa fa-linkedin-square linked-in" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-md-2 col-sm-2 col-xs-3"><a href="https://github.com/Noatel/" target="_blank"><i
+                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="https://github.com/Noatel/" target="_blank"><i
                                     class="fa-5x     fa fa-github github" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-md-2 col-sm-2 col-xs-3"><a
+                    <div class="col-md-3 col-sm-3 col-xs-3"><a
                                 href="https://stackoverflow.com/users/4345254/noah-telussa" target="_blank"><i
                                     class="fa-5x fa fa-stack-overflow stackoverflow" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="space-50  hidden-md hidden-lg"></div>
-            <div class="col-md-6 col-sm-12 col-sm-offset-0 col-md-offset-1">
-                <div class="me "></div>
-            </div>
+
             <div class="space-40"></div>
         </div>
         <div class="row">
@@ -278,7 +308,7 @@
         $(this).find(".box-text").fadeToggle(100);
 
     });
-        $(".skill-box").hover(function () {
+    $(".skill-box").hover(function () {
         $(this).addClass('animated shake');
     });
     $(".skill-box").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
