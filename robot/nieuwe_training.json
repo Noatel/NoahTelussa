@@ -1,0 +1,23 @@
+{
+    "cursusdata": [
+        {
+            "id": null,
+            "datum": "01-09-2019 18:00:00"
+        }
+    ],
+    "cursusdocenten": [
+        {
+            "id": null,
+            "naam": "String",
+            "email": "string@string.nl"
+        }
+    ],
+    "cursuscursisten": [],
+    "naam": "Avans Minor Robot Test",
+    "attitude": "Technical attitude",
+    "functieniveau": "1",
+    "slagingscriterium": "Zelfstudie",
+    "status": "Inschrijving geopend",
+    "maxdeelnemers": "1",
+    "beschrijving": "Beschrijving"
+}

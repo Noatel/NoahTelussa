@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20191023 11:31:53.720" rpa="false">
+<suite id="s1" name="ApiTest" source="/Users/NoahTelussa/Code/School/Avans/avans-minor-robot/Testcases/ApiTest.robot">
+<test id="s1-t1" name="1. Controleer of de functieniveaus correct terugkomen">
+<kw name="GET Functieniveaus" library="ApiTestKeywords">
+<kw name="Get" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a GET request to the endpoint.*</doc>
+<arguments>
+<arg>/functieniveaus</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.185" endtime="20191023 11:31:54.277"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.184" endtime="20191023 11:31:54.278"></status>
+</kw>
+<kw name="Response Status Should Be" library="ApiTestKeywords">
+<arguments>
+<arg>200</arg>
+</arguments>
+<kw name="Integer" library="REST">
+<tags>
+<tag>assertions</tag>
+</tags>
+<doc>*Asserts the field as JSON integer.*</doc>
+<arguments>
+<arg>response status</arg>
+<arg>${RESP_STATUS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.278" endtime="20191023 11:31:54.279"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.278" endtime="20191023 11:31:54.280"></status>
+</kw>
+<kw name="Log Response Body To Console" library="ApiTestKeywords">
+<kw name="Output" library="REST">
+<tags>
+<tag>I/O</tag>
+</tags>
+<doc>*Outputs JSON to terminal or a file.*</doc>
+<arguments>
+<arg>response body</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.280" level="INFO">
+[
+    {
+        "id": 1,
+        "functieniveau": "Trainee"
+    },
+    {
+        "id": 2,
+        "functieniveau": "1"
+    },
+    {
+        "id": 3,
+        "functieniveau": "2"
+    },
+    {
+        "id": 4,
+        "functieniveau": "3"
+    },
+    {
+        "id": 5,
+        "functieniveau": "N.v.t."
+    }
+]</msg>
+<status status="PASS" starttime="20191023 11:31:54.280" endtime="20191023 11:31:54.288"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.280" endtime="20191023 11:31:54.288"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.183" endtime="20191023 11:31:54.288" critical="yes"></status>
+</test>
+<test id="s1-t2" name="2. Creëer een nieuwe training in de applicatie">
+<kw name="POST New Training" library="ApiTestKeywords">
+<arguments>
+<arg>${NEW_TRAINING_JSON}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen</arg>
+<arg>${JSON}</arg>
+</arguments>
+<assign>
+<var>&amp;{resp}</var>
+</assign>
+<msg timestamp="20191023 11:31:54.336" level="INFO">&amp;{resp} = { seconds=0.036695 | status=201 | body={'id': 91, 'naam': 'Noah cursus', 'attitude': 'Technical attitude', 'functieniveau': '3', 'slagingscriterium': 'Zelfstudie', 'status': 'Inschrijving geopend', 'm...</msg>
+<status status="PASS" starttime="20191023 11:31:54.293" endtime="20191023 11:31:54.336"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${resp.body.id}</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.338" level="INFO">${CREATED_TRAINING_ID} = 91</msg>
+<status status="PASS" starttime="20191023 11:31:54.336" endtime="20191023 11:31:54.338"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Created training with ID: ${CREATED_TRAINING_ID}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.338" endtime="20191023 11:31:54.338"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.291" endtime="20191023 11:31:54.339"></status>
+</kw>
+<kw name="Response Status Should Be" library="ApiTestKeywords">
+<arguments>
+<arg>201</arg>
+</arguments>
+<kw name="Integer" library="REST">
+<tags>
+<tag>assertions</tag>
+</tags>
+<doc>*Asserts the field as JSON integer.*</doc>
+<arguments>
+<arg>response status</arg>
+<arg>${RESP_STATUS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.339" endtime="20191023 11:31:54.340"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.339" endtime="20191023 11:31:54.340"></status>
+</kw>
+<kw name="Log Response Body To Console" library="ApiTestKeywords">
+<kw name="Output" library="REST">
+<tags>
+<tag>I/O</tag>
+</tags>
+<doc>*Outputs JSON to terminal or a file.*</doc>
+<arguments>
+<arg>response body</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.341" level="INFO">
+{
+    "id": 91,
+    "naam": "Noah cursus",
+    "attitude": "Technical attitude",
+    "functieniveau": "3",
+    "slagingscriterium": "Zelfstudie",
+    "status": "Inschrijving geopend",
+    "maxdeelnemers": 10,
+    "beschrijving": "Beschrijving van de cursus",
+    "cursusdata": [
+        {
+            "id": 91,
+            "datum": "01-01-2019 18:00:00"
+        }
+    ],
+    "cursusdocenten": [
+        {
+            "id": 91,
+            "naam": "Docent Naam",
+            "email": "docent@email.nl"
+        }
+    ],
+    "cursuscursisten": []
+}</msg>
+<status status="PASS" starttime="20191023 11:31:54.341" endtime="20191023 11:31:54.342"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.340" endtime="20191023 11:31:54.342"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.290" endtime="20191023 11:31:54.343" critical="yes"></status>
+</test>
+<test id="s1-t3" name="3. Verifieer of de training uit stap 2 correct is opgeslagen">
+<kw name="GET Training" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+</arguments>
+<kw name="Get" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a GET request to the endpoint.*</doc>
+<arguments>
+<arg>cursussen/${ID}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.344" endtime="20191023 11:31:54.374"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.344" endtime="20191023 11:31:54.376"></status>
+</kw>
+<kw name="Response Status Should Be" library="ApiTestKeywords">
+<arguments>
+<arg>200</arg>
+</arguments>
+<kw name="Integer" library="REST">
+<tags>
+<tag>assertions</tag>
+</tags>
+<doc>*Asserts the field as JSON integer.*</doc>
+<arguments>
+<arg>response status</arg>
+<arg>${RESP_STATUS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.381" endtime="20191023 11:31:54.391"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.378" endtime="20191023 11:31:54.392"></status>
+</kw>
+<kw name="Log Response Body To Console" library="ApiTestKeywords">
+<kw name="Output" library="REST">
+<tags>
+<tag>I/O</tag>
+</tags>
+<doc>*Outputs JSON to terminal or a file.*</doc>
+<arguments>
+<arg>response body</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.401" level="INFO">
+{
+    "id": 91,
+    "naam": "Noah cursus",
+    "attitude": "Technical attitude",
+    "functieniveau": "3",
+    "slagingscriterium": "Zelfstudie",
+    "status": "Inschrijving geopend",
+    "maxdeelnemers": 10,
+    "beschrijving": "Beschrijving van de cursus",
+    "cursusdata": [
+        {
+            "id": 91,
+            "datum": "01-01-2019 18:00:00"
+        }
+    ],
+    "cursusdocenten": [
+        {
+            "id": 91,
+            "naam": "Docent Naam",
+            "email": "docent@email.nl"
+        }
+    ],
+    "cursuscursisten": []
+}</msg>
+<status status="PASS" starttime="20191023 11:31:54.399" endtime="20191023 11:31:54.425"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.397" endtime="20191023 11:31:54.426"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.343" endtime="20191023 11:31:54.429" critical="yes"></status>
+</test>
+<test id="s1-t4" name="4. Test of een nieuwe deelnemer kan worden toegevoegd">
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.506" level="WARN">Response body content is not JSON. Content-Type is: application/json;charset=UTF-8</msg>
+<status status="PASS" starttime="20191023 11:31:54.446" endtime="20191023 11:31:54.510"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.434" endtime="20191023 11:31:54.511"></status>
+</kw>
+<kw name="Log Response Body To Console" library="ApiTestKeywords">
+<kw name="Output" library="REST">
+<tags>
+<tag>I/O</tag>
+</tags>
+<doc>*Outputs JSON to terminal or a file.*</doc>
+<arguments>
+<arg>response body</arg>
+</arguments>
+<msg timestamp="20191023 11:31:54.512" level="INFO">
+"Succesvol aangemeld voor de cursus."</msg>
+<status status="PASS" starttime="20191023 11:31:54.512" endtime="20191023 11:31:54.513"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.511" endtime="20191023 11:31:54.513"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.431" endtime="20191023 11:31:54.513" critical="yes"></status>
+</test>
+<test id="s1-t5" name="5. Test of er niet meer dan het maximum aantal deelnemers kunnen aanmelden en dat je de verwachte foutmelding krijgt als dat wel zo is">
+<kw name="${i} IN RANGE [ ${NEW_CURSUS_MAXDEELNMRS} ]" type="for">
+<kw name="${i} = 0" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.516" endtime="20191023 11:31:54.517"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.517" endtime="20191023 11:31:54.559"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.517" endtime="20191023 11:31:54.559"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.516" endtime="20191023 11:31:54.560"></status>
+</kw>
+<kw name="${i} = 1" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.560" endtime="20191023 11:31:54.560"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.561" endtime="20191023 11:31:54.610"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.560" endtime="20191023 11:31:54.610"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.560" endtime="20191023 11:31:54.610"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.610" endtime="20191023 11:31:54.610"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.611" endtime="20191023 11:31:54.655"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.610" endtime="20191023 11:31:54.655"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.610" endtime="20191023 11:31:54.655"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.656" endtime="20191023 11:31:54.656"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.657" endtime="20191023 11:31:54.700"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.656" endtime="20191023 11:31:54.700"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.656" endtime="20191023 11:31:54.700"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.701" endtime="20191023 11:31:54.706"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.712" endtime="20191023 11:31:54.806"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.706" endtime="20191023 11:31:54.806"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.701" endtime="20191023 11:31:54.806"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.807" endtime="20191023 11:31:54.807"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.808" endtime="20191023 11:31:54.910"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.807" endtime="20191023 11:31:54.912"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.806" endtime="20191023 11:31:54.913"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.914" endtime="20191023 11:31:54.915"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.923" endtime="20191023 11:31:54.974"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.917" endtime="20191023 11:31:54.975"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.913" endtime="20191023 11:31:54.975"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.976" endtime="20191023 11:31:54.976"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:54.977" endtime="20191023 11:31:55.022"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.976" endtime="20191023 11:31:55.023"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.976" endtime="20191023 11:31:55.023"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.023" endtime="20191023 11:31:55.024"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.024" endtime="20191023 11:31:55.066"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.024" endtime="20191023 11:31:55.066"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.023" endtime="20191023 11:31:55.066"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == ${NEW_CURSUS_MAXDEELNMRS}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.066" endtime="20191023 11:31:55.067"></status>
+</kw>
+<kw name="POST New Participant" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+<arg>${NEW_TRAINEE_JSON1}</arg>
+</arguments>
+<kw name="Post" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a POST request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}/cursuscursisten</arg>
+<arg>${PARTICIPANT_JSON}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.069" endtime="20191023 11:31:55.125"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.067" endtime="20191023 11:31:55.125"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.066" endtime="20191023 11:31:55.125"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.515" endtime="20191023 11:31:55.125"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Exited</arg>
+</arguments>
+<msg timestamp="20191023 11:31:55.127" level="INFO">Exited</msg>
+<status status="PASS" starttime="20191023 11:31:55.126" endtime="20191023 11:31:55.127"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:54.514" endtime="20191023 11:31:55.127" critical="yes"></status>
+</test>
+<test id="s1-t6" name="6. Delete de training die je hebt aangemaakt en valideer dat hij weg is">
+<kw name="DELETE Training" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+</arguments>
+<kw name="Delete" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a DELETE request to the endpoint.*</doc>
+<arguments>
+<arg>/cursussen/${ID}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.130" endtime="20191023 11:31:55.167"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Deleted training with ID: ${ID}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.167" endtime="20191023 11:31:55.168"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.129" endtime="20191023 11:31:55.168"></status>
+</kw>
+<kw name="GET Training" library="ApiTestKeywords">
+<arguments>
+<arg>${CREATED_TRAINING_ID}</arg>
+</arguments>
+<kw name="Get" library="REST">
+<tags>
+<tag>http</tag>
+</tags>
+<doc>*Sends a GET request to the endpoint.*</doc>
+<arguments>
+<arg>cursussen/${ID}</arg>
+</arguments>
+<status status="PASS" starttime="20191023 11:31:55.168" endtime="20191023 11:31:55.193"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.168" endtime="20191023 11:31:55.194"></status>
+</kw>
+<status status="PASS" starttime="20191023 11:31:55.128" endtime="20191023 11:31:55.194" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191023 11:31:53.723" endtime="20191023 11:31:55.195"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="0">Critical Tests</stat>
+<stat pass="6" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="6" fail="0" id="s1" name="ApiTest">ApiTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191023 11:31:54.506" level="WARN">Response body content is not JSON. Content-Type is: application/json;charset=UTF-8</msg>
+</errors>
+</robot>
