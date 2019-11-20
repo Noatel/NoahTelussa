@@ -82,8 +82,9 @@
 
             </div>
 
-            <div class="space-50  hidden-md hidden-lg"></div>
             <div class="col-md-6 col-sm-12 col-sm-offset-0 col-md-offset-1">
+                <div class="space-50"></div>
+
                 <div class="me "></div>
             </div>
 
