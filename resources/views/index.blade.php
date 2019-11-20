@@ -64,9 +64,9 @@
                 <p>
                     Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
                     Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie-en-en-half jaar en heb hierdoor bij
-                    verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn
-                    opleiding ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf
-                    PRSC, hier heb ik aan verschillende websites gewerkt.
+                    verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn opleiding
+                    ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf PRSC, hier
+                    heb ik aan verschillende websites gewerkt.
                 </p>
                 <p>
                     Tijdens mijn drie-en-en-half jaar durende opleiding applicatie- en mediaontwikkeling heb ik bij
@@ -75,7 +75,7 @@
                     van front-end development tot aan het realiseren van API koppelingen.
                 </p>
                 <p>
-                    Van september 2017 tot heden ben ik begonnen aan de opleiding HBO-ICT in Den Haag. Mijn doel van
+                    Sinds september 2017 volg ik de opleiding HBO-ICT op De Hogeschool in Den Haag. Mijn doel van
                     deze opleiding is het uitbreiden van mijn technische kennis. Hierbij liggen mijn interesses in het
                     ontwerpen en ontwikkelen van complexe ICT systemen.
                 </p>
@@ -91,9 +91,9 @@
                 <h3>Testing</h3>
                 <p>
                     In september 2019 ben ik begonnen aan de minor software engineering, kwaliteit en testen
-                    op Avans hogeschool. Testen vind ik persoonlijk een belangrijk deel tijdens het ontwikkelen van een
-                    applicatie en hier wordt weinig aandacht aan gegeven. Hier kregen we te maken met verschillende
-                    testontwerptechniek zoals:
+                    op Avans hogeschool. Testen vind ik een belangrijk onderdeel van het ontwikkelproces van een
+                    applicatie, en hier wordt vaak weinig aandacht aan gegeven. Tijdens deze minor kregen we te maken
+                    met testontwerptechnieken zoals:
                 </p>
                 <div class="col-md-6">
                     <ul>
@@ -115,9 +115,9 @@
                 </div>
                 <div class="space-10"></div>
                 <p>
-                    Samen met de verschillende test technieken hebben we ook
-                    automatische testen gedaan. Dit deden we door middel van de volgende programma's / frameworks
-                    Selenium, Robot frameworks, Ranorex, Jenkins, Openshift en Specflow.
+                    Naast de verschillende test technieken hebben we ook ervaring opgedaan met automatisch testen. Dit
+                    deden we door middel van van de volgende programma's / frameworks
+                    Selenium, Robot frameworks, Ranorex, Jenkins en Specflow.
                 </p>
                 <div class="social-media row">
                     <div class="space-40"></div>
