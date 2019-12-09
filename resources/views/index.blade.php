@@ -63,15 +63,10 @@
                 <h2>Introduction</h2>
                 <p>
                     Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
-                    Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie-en-en-half jaar en heb hierdoor bij
+                    Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie-en-half jaar en heb hierdoor bij
                     verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn opleiding
-                    ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf PRSC, hier
-                    heb ik aan verschillende websites gewerkt.
-                </p>
-                <p>
-                    Tijdens mijn drie-en-en-half jaar durende opleiding applicatie- en mediaontwikkeling heb ik bij
-                    verschillende bedrijven stage gelopen. Één hiervan was PRSC. Na mijn stage heb ik nog een klein jaar
-                    praktijkervaring opgedaan bij PRSC, waarbij ik verschillende werkzaamheden verricht, welke variëren
+                    ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf PRSC, hier heb
+                    ik aan verschillende werkzaamheden gewerkt, die variëren
                     van front-end development tot aan het realiseren van API koppelingen.
                 </p>
                 <p>
@@ -117,7 +112,7 @@
                 <div class="space-10"></div>
                 <p>
                     Naast de verschillende test technieken hebben we ook ervaring opgedaan met automatisch testen. Dit
-                    deden we door middel van van de volgende programma's / frameworks
+                    deden we door middel van de volgende programma's / frameworks
                     Selenium, Robot frameworks, Ranorex, Jenkins en Specflow.
                 </p>
                 <div class="social-media row">
