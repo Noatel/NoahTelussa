@@ -36,85 +36,42 @@
 <section class="intro">
     <div class="inner">
         <div class="content">
-            <section class="animated  bounceInUp delay-0s">
-                <h1>Noah Telussa</h1>
-            </section>
+            
 
+        <div class="row">
+
+<div class="container">
+        <div class="col-md-7">
             <section class="animated  bounceInUp delay-0s">
-                <div class="space-20"></div>
+            <div class="space-40"></div>
+            <div class="space-40"></div>
+            <div class="space-40"></div>
+                <h1>Noah <br> Telussa</h1>
+                <p>
+                    Hoi! Mijn naam is Noah Telussa, 27 jarige developer die in januari 2017 afgestudeerd is als Mediaontwikkelaar en in 2023 afgestuudeerd voor de studie HBO-ICT Software ontwikkelaar bij de haagse hogeschool.
+                </p>
+            </section>
+            </div>
+            <div class="col-md-4 col-md-push-1  col-xs-7 col-xs-push-2 col-sm-5 col-sm-push-2 ">
+            <section class="animated  bounceInUp delay-0s">
+                <div class="profile-background">
+                    <div class="noah"></div>
+                </div>
+
                 <a href="#introduction" class="btn">
                     Introduction
                 </a>
                 <a href="#portfolio" class="btn">
                     Portfolio
                 </a>
-            </section>
+            </section></div>
+        </div></div>
+
 
         </div>
     </div>
 </section>
-
-
-<section class="introduction" id="introduction">
-    <div class="container">
-        <div class="row">
-            <div class="space-40"></div>
-            <div class="col-md-5 col-sm-12 col-xs-10 col-sm-offset-0  col-xs-offset-1">
-                <h2>Introduction</h2>
-                <p>
-                    Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
-                    Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie-en-half jaar en heb hierdoor bij
-                    verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn opleiding
-                    ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf PRSC, hier heb
-                    ik aan verschillende werkzaamheden gewerkt, die variëren
-                    van front-end development tot aan het realiseren van API koppelingen.
-                </p>
-                <p>
-                    Sinds september 2017 volg ik de opleiding HBO-ICT op De Hogeschool in Den Haag. Mijn doel van
-                    deze opleiding is het uitbreiden van mijn technische kennis. Hierbij liggen mijn interesses in het
-                    ontwerpen en ontwikkelen van complexe ICT systemen.
-                </p>
-
-            </div>
-
-            <div class="col-md-6 col-sm-12 col-sm-offset-0 col-md-offset-1">
-                <div class="space-50"></div>
-
-                <div class="me "></div>
-            </div>
-
-            <div class="col-md-12 col-sm-12">
-                <h3>Testing</h3>
-                <p>
-                    In september 2019 ben ik begonnen aan de minor software engineering, kwaliteit en testen
-                    op Avans hogeschool. Testen vind ik een belangrijk onderdeel van het ontwikkelproces van een
-                    applicatie, en hier wordt vaak weinig aandacht aan gegeven. Tijdens deze minor kregen we te maken
-                    met testontwerptechnieken zoals:
-                </p>
-                <div class="col-md-6">
-                    <ul>
-                        <li>Beslistabellen</li>
-                        <li>Datacombinatietest</li>
-                        <li>Exploratory Testing</li>
-                        <li>Procescyclustest</li>
-                        <li>Test driven development</li>
-                    </ul>
-
-                </div>
-                <div class="col-md-6">
-                    <ul>
-                        <li>Behaviour driven development</li>
-                        <li>Continuous integration & continuous delivery</li>
-                        <li>Ketentesten</li>
-                        <li>Regressietesten</li>
-                    </ul>
-                </div>
-                <div class="space-10"></div>
-                <p>
-                    Naast de verschillende test technieken hebben we ook ervaring opgedaan met automatisch testen. Dit
-                    deden we door middel van de volgende programma's / frameworks
-                    Selenium, Robot frameworks, Ranorex, Jenkins en Specflow.
-                </p>
+<div class="col-md-12 col-sm-12">
                 <div class="social-media row">
                     <div class="space-40"></div>
                     <div class="col-md-3 col-md-offset-3 col-sm-offset-2 col-sm-2 col-xs-offset-0 col-xs-3"><a
@@ -131,6 +88,82 @@
                     </div>
                 </div>
             </div>
+
+
+<section class="introduction" id="introduction">
+    <div class="container">
+        <div class="row">
+            <div class="space-40"></div>
+            <div class="col-md-10    col-sm-12 col-xs-10 col-sm-offset-0  col-xs-offset-1">
+                <h2>Introduction</h2>
+
+                <div>
+                Logo van Typify
+TypifyTypify
+1 jaar 7 maanden1 jaar 7 maanden
+Full stack developerFull stack developer
+FulltimeFulltime
+apr. 2023 - heden · 1 jr 2 mndapr. 2023 tot heden · 1 jr 2 mnd
+Den Haag, Zuid-Holland, NederlandDen Haag, Zuid-Holland, Nederland
+Back-end DeveloperBack-end Developer
+StageStage
+nov. 2022 - apr. 2023 · 6 mndnov. 2022 tot apr. 2023 · 6 mnd
+The Hague, South Holland, NetherlandsThe Hague, South Holland, Netherlands
+</div>
+<div>
+Logo van Notive - IT Innovation Partner
+Junior Software EngineerJunior Software Engineer
+Internetbureau Notive · FulltimeInternetbureau Notive · Fulltime
+jan. 2020 - nov. 2021 · 1 jr 11 mndjan. 2020 tot nov. 2021 · 1 jr 11 mnd
+</div>
+<div>
+Logo van Facilicom Group
+TesterTester
+Facilicom Group · StageFacilicom Group · Stage
+nov. 2019 - jan. 2020 · 3 mndnov. 2019 tot jan. 2020 · 3 mnd
+Rotterdam en omgeving, NederlandRotterdam en omgeving, Nederland
+</div>
+<div>
+Logo van PRSC. vastgoedcommunicatie
+WebontwikkelaarWebontwikkelaar
+PersC · FulltimePersC · Fulltime
+feb. 2016 - sep. 2017 · 1 jr 8 mndfeb. 2016 tot sep. 2017 · 1 jr 8 mnd
+Rotterdam en omgeving, NederlandRotterdam en omgeving, Nederland
+</div>
+<div>
+Logo van NeverDull B.V.
+WebontwikkelaarWebontwikkelaar
+NeverDull Digital Agency · StageNeverDull Digital Agency · Stage
+aug. 2015 - okt. 2015 · 3 mndaug. 2015 tot okt. 2015 · 3 mnd
+Rotterdam en omgeving, NederlandRotterdam en omgeving, Nederland
+</div>
+<div>
+Logo van lilopel
+WebontwikkelaarWebontwikkelaar
+Lilopel Computer & Design · StageLilopel Computer & Design · Stage
+apr. 2015 - jul. 2015 · 4 mndapr. 2015 tot jul. 2015 · 4 mnd
+Cypresbaan 10 Capelle a/d IJssel
+</div>
+
+
+                <p>
+                    Mijn naam is Noah Telussa, {{$age}} jarige developer die in januari 2017 afgestudeerd is als
+                    Mediaontwikkelaar. Deze opleiding heb ik afgerond in drie-en-half jaar en heb hierdoor bij
+                    verschillende bedrijven stage gelopen, één van die bedrijven was het bedrijf PRSC. Na mijn opleiding
+                    ben ik van januari 2017 tot September 2017 full-time aan de slag gegaan bij het bedijf PRSC, hier heb
+                    ik aan verschillende werkzaamheden gewerkt, die variëren
+                    van front-end development tot aan het realiseren van API koppelingen.
+                </p>
+                <p>
+                    Sinds september 2017 volg ik de opleiding HBO-ICT op De Hogeschool in Den Haag. Mijn doel van
+                    deze opleiding is het uitbreiden van mijn technische kennis. Hierbij liggen mijn interesses in het
+                    ontwerpen en ontwikkelen van complexe ICT systemen.
+                </p>
+
+            </div>
+
+
+           
 
             <div class="space-40"></div>
         </div>

@@ -1197,7 +1197,9 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0; 
+  text-align: left;
+}
 
 mark {
   background: #ff0;
@@ -6939,7 +6941,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: auto;
-  background: url("/images/background-code.jpg");
+  /* background: url("/images/background-code.jpg"); */
   background-size: cover;
   display: table;
   top: 0; }
@@ -6948,13 +6950,14 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  padding-bottom: 25%; }
+}
 
 .content h1 {
   font-family: 'Open Sans', sans-serif;
-  color: #f9f3f4;
+  color: black;
   font-size: 550%;
-  text-shadow: 3px 3px #098fa8; }
+  /* text-shadow: 3px 3px #098fa8;  */
+}
 
 .btn {
   font-size: 150%;
@@ -6974,6 +6977,22 @@ p, li {
   font-size: 120%;
   text-align: justify;
   line-height: 190%; }
+
+  .profile-background{
+    margin-top:150px;
+    margin-bottom:50px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,0.7469581582633054) 54%, rgba(2,0,36,1) 100%);
+    height: auto;
+    border-radius: 50%;
+  }
+  .noah {
+    height: 320px;
+    width: 100%;
+    position: relative;
+    background: url("/images/me/noah.png");
+    background-size: cover;
+    margin: 0; }
 
 .me {
   height: 600px;

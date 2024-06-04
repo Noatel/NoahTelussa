@@ -10,6 +10,7 @@
     "laravel-elixir": "^5.0.0"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
     "gulp-notify": "^3.2.0"
   }
 }
